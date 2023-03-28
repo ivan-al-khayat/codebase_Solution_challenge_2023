@@ -5,6 +5,7 @@ to test the changing of NDVI value for all the zones try to simply click in this
 To be sure that the system is working as expected, after visiting the endpoint, wait 2 minutes to let the system run; if it doens't work it's very likely that the generated random numbers do not exceed the 20% threashold compared to the previous values, therefore you'll need to re-click the endpoint as stated above.
 
 The code for the android app is present in the file fire_watch_native_android.zip.
+the apk file can be found in the file: Fire Watch 1.0.0 beta.apk
 
 indications on how to test our system:
 1- from the app side start by installing the app on a device, virtual or physical ,(preferrably API 29) and select the rescuer role;
