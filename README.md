@@ -8,21 +8,21 @@ The code for the android app is present in the file fire_watch_native_android.zi
 the apk file can be found in the file: Fire Watch 1.0.0 beta.apk
 
 indications on how to test our system: \
-1- from the app side start by installing the app on a device, virtual or physical ,(preferrably API 29) and select the rescuer role;
-2- select any area you want;
-3- on a PC, visit the following endpoint https://us-central1-fire-watch-380812.cloudfunctions.net/setFakeNdvis to fire an alarm;
-4- receive the notification of possible fire detected;
-5- press the manage button for the new alert that you can find in the "alerts" section identified by the current date;
-6- set the status to solving;
-7- receive the notification of status update;
-8- press again the manage button to set the status of the alert to solved;
-9- receive the notification of status solved;
-10- verify that the manage button is not clickable, and the test is finished.
+1- from the app side start by installing the app on a device, virtual or physical ,(preferrably API 29) and select the rescuer role;\
+2- select any area you want;\
+3- on a PC, visit the following endpoint https://us-central1-fire-watch-380812.cloudfunctions.net/setFakeNdvis to fire an alarm;\
+4- receive the notification of possible fire detected;\
+5- press the manage button for the new alert that you can find in the "alerts" section identified by the current date;\
+6- set the status to solving;\
+7- receive the notification of status update;\
+8- press again the manage button to set the status of the alert to solved;\
+9- receive the notification of status solved;\
+10- verify that the manage button is not clickable, and the test is finished.\
 
 
 
 
 
 As a next step we plan to present the app in Flutter, and we alredy started prototyping it; it available here: https://drive.google.com/file/d/1I-tP9-Y9-1NGVoR6gVTU4C4FADqtTZdA/view to better design the user interface.
-As further improvements we plan to implement a machine learning model that enhance the fire detection strategy; for this task we have uploaded in this repo the file FirePredictionDaraset_Cleaned_World_NASA_FIRMS_24.03.2023.csv to possibily train the model.
+As further improvements we plan to implement a deep learning model that enhance the fire detection strategy; for this task we have uploaded in this repo the file FirePredictionDaraset_Cleaned_World_NASA_FIRMS_24.03.2023.csv to possibily train the model.
 Also we plan to add an authentication method for the user that will be qualified as a rescuer, where more information can be found inside the file Authentication.zip
