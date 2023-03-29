@@ -20,7 +20,7 @@ indications on how to test our system: \
 10- verify that the manage button is not clickable, and the test is finished.
 
 
-the codebase for the backend part of our system is splittend into zip files, each of which containing the code for the Google Cloud Function involve.
+the codebase for the backend part of our system is splittend into zip files, each of which containing the code for the Google Cloud Function involved.
 These zip files are named function-source_<function name>.zip
 
 
