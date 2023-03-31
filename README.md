@@ -27,3 +27,6 @@ These zip files are named function-source_<function name>.zip
 As a next step we plan to present the app in Flutter, and we alredy started prototyping it; it available here: https://drive.google.com/file/d/1I-tP9-Y9-1NGVoR6gVTU4C4FADqtTZdA/view to better design the user interface.
 As further improvements we plan to implement a deep learning model that enhance the fire detection strategy; for this task we have uploaded in this repo the file FirePredictionDaraset_Cleaned_World_NASA_FIRMS_24.03.2023.csv to possibily train the model.
 Also we plan to add an authentication method for the user that will be qualified as a rescuer, where more information can be found inside the file Authentication.zip
+![logo](https://user-images.githubusercontent.com/94905245/229208377-b10ffcf1-9ce0-4785-91dd-716d2b0dcdbf.png)
+
+
